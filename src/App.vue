@@ -3,15 +3,21 @@
     <div class="hello-wrold">
       <img alt="Vue logo" src="./assets/logo.png" />
       <div class="hello-wrold__message">
+        参上！！！
         {{ message }}
       </div>
     </div>
+    **<TodoList />**
   </div>
 </template>
 
 <script>
+import TodoList from "@/components/TodoList.vue"
 export default {
   name: "App",
+  components: {
+    TodoList,
+  },
   data: function () {
     return {
       message: "WebExpert Course Vue Template",
