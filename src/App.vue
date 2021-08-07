@@ -3,7 +3,7 @@
     <div class="hello-wrold">
       <img alt="Vue logo" src="./assets/logo.png" />
       <div class="hello-wrold__message">
-        参上！！！
+        うんこうんっこ
         {{ message }}
       </div>
     </div>
